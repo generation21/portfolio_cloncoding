@@ -41,11 +41,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
-
+    <!-- TypeIt -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- Javascript -->
     <script type="module" src="src/main.js" defer></script>
     <script type="module" src="src/projects.js" defer></script>
     <script type="module" src="src/active_menue.js" defer></script>
+    <script type="module" src="src/typeit.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -80,10 +82,13 @@
             src="images/profile.png"
             alt="Seungbum's profile"
           />
-          <h2 class="home__title">
-            Hello <br />
+          <h2 class="home__title" aria-label="Hello, I'm Hong Seungbum">
+            Hello
+            <br />
             I&#39;m
-            <strong class="home__title--strong">Deep Learning Engineer</strong>
+            <strong class="home__title--strong">
+              Deep Learning Engineer
+            </strong>
             ,Seungbum Hong
           </h2>
           <p class="home__description">
